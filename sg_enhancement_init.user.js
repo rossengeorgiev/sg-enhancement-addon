@@ -16,6 +16,6 @@
 if(window.top == window) {
   var script = document.createElement("script");
   script.type = "text/javascript";
-  script.src = "http://steamgifts-giveaway-filter.googlecode.com/svn/trunk/sg_enhancement_addon_base.js";
+  script.src = "https://raw.github.com/rossengeorgiev/sg-enhancement-addon/master/sg_enhancement_addon_base.js"
   document.body.appendChild(script);
 } 
