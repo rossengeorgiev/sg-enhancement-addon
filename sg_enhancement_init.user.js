@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name          Steamgifts Enhancement Addon
 // @description   Browse game giveaways like a pro.
-// @version       2.0
+// @version       2.1
 // @namespace 	  http://www.steamgifts.com/user/Zo
 // @author        Zo
 // @run-at        document-end
