@@ -749,6 +749,11 @@ switch(unsafeWindow.gafHrefPart[3]) {
   
       if(unsafeWindow.gafHrefPart.length > 5) {
         if( unsafeWindow.gafOptions.match('R')
+            && !window.location.href.match(/page\/31337$/)) 
+						{ 
+							window.location.href = window.location.href.split('/').slice(0,6).join('/') + '/page/31337';
+						}
+        if( unsafeWindow.gafOptions.match('R')
             || window.location.href.match(/page\/31337$/)) { unsafeWindow.gafReverse = true; }
         if( !unsafeWindow.gafOptions.match('D') ) { unsafeWindow.gafScrollOn = false; }        
         
