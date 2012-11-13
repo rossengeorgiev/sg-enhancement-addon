@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name          Steamgifts Enhancement Addon
 // @description   Browse game giveaways like a pro.
-// @version       2.1
+// @version       2.2
 // @namespace 	  http://www.steamgifts.com/user/Zo
 // @author        Zo
 // @run-at        document-end
@@ -33,6 +33,6 @@
 if(window.top == window) {
   var script = document.createElement("script");
   script.type = "text/javascript";
-  script.src = "https://raw.github.com/rossengeorgiev/sg-enhancement-addon/master/sg_enhancement_addon_base.js"
+  script.src = "http://rossengeorgiev.github.com/sg-enhancement-addon/sg_enhancement_addon_base.js"
   document.body.appendChild(script);
 } 
