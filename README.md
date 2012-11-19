@@ -1,8 +1,25 @@
 SG Enhancement Addon
 ====================
 
-Adds a whole bunch of features to the steamgifts.com website to make browsing smoother and easier.
-If you you have any blocking addons, such as NoScript or Adblock, whitelist 'raw.github.com'
+Add a number of enhachacements to [http://www.steamgifts.com](http://steamgifts.com).
+
+* Giveaway filter, green highlighting for wishlist, and more
+* Search giveaways (slower than site search)
+* Option to filter out games from the sync library http://www.steamgifts.com/sync
+* Minified quick view for giveaways through their banner
+* One button Comments+Enter from minified page
+* Endless scrolling
+* Vertical row compression
+* Floating menu bar
+* Newest comment on top
+* Always up-to-date
+* Runs is Firefox, Chrome, Safari and Opera
+* Muffins not included
+
+
+Installation notes:
+
+If you you have any blocking addons, such as NoScript or Adblock, whitelist 'http://rossengeorgiev.github.com'
 
 [Project thread on SG](http://www.steamgifts.com/forum/ba6uc/sg-enhancement-addon/page/31337)
 
