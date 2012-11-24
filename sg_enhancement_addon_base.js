@@ -26,6 +26,13 @@ unsafeWindow.gafIsLoaded = true;
 // doesnt load on search page
 if(window.location.href.indexOf("search/") > -1 ) return false;
 
+// make sure we only load the code on supported pages
+// --------
+// This was functionality was moved from the init script.
+// Adding support for certain parts of the site will no longer require an action on the user side
+if(!window.location.href.match(/^https?\:\/\/www\.steamgifts\.com\/?(#|(open|new|forum).*)?$/))
+	if(typeof unsafeWindow.gafDev === 'undefined') return false;
+
 // fades background and shows+centre the popup
 unsafeWindow.gafPopupShow = function() {
   $("#gafPopup").css({

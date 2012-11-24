@@ -1,19 +1,16 @@
 // ==UserScript==
 // @name          Steamgifts Enhancement Addon
 // @description   Browse game giveaways like a pro.
-// @version       2.2
+// @version       2.3
 // @namespace 	  http://www.steamgifts.com/user/Zo
 // @author        Zo
 // @run-at        document-end
-// @include       http://www.steamgifts.com/
-// @include       http://www.steamgifts.com/#
-// @include       http://www.steamgifts.com/open*
-// @include       http://www.steamgifts.com/new*
-// @include       http://www.steamgifts.com/forum*
+// @include       http://www.steamgifts.com*
+// @include       https://www.steamgifts.com*
 // ==/UserScript==
 
-/*  SGE addon - This a user-script that provides extra functionallity on top of steamgifts.com
-    Copyright (C) 2012 Rossen Georgiev
+/*  SGE addon - This user-script provides extra functionallity on top of steamgifts.com
+    Copyright (C) 2011-2012 Rossen Georgiev
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
