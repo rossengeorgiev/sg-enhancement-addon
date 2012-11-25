@@ -687,7 +687,95 @@ unsafeWindow.gafUpdateViews = function() {
   if(s[0]==1) $('#gafViewLinks input').slice(1,99).attr('disabled','disabled');
 }
 
+$("#gafLivePreview h1:first").live("click", function() {
+	   var e = $("#gafLivePreview .markdown");
+		 if(e.is(':visible')) e.hide();
+		 else e.show();
+});
+
+$("#create_form textarea#body, #comment_form textarea#body, .user_edit textarea").live('keyup', function() {
+	var e = $(this);
+
+	if($("#gafLivePreview").length > 0 && e.parent().parent().find("#gafLivePreview").length == 0) $("#gafLivePreview").remove();
+
+	if(e.val() != "" && $("#gafLivePreview").length == 0) {
+		var insertAfterElement;
+
+		if(window.location.href.match(/forum\/edit$/)) insertAfterElement = e.parent().find('.clear_both');
+		else {
+			insertAfterElement = e.parent().parent().find('.clear_both');
+
+			if(insertAfterElement.length == 0)
+				insertAfterElement = e.parent().parent().parent().parent().find('.clear_both');
+
+			if(insertAfterElement.length == 0)
+				insertAfterElement = e.parent().parent().parent().parent().find('.user_edit');
+		}
+
+		insertAfterElement.after('<div id="gafLivePreview" style="width:700px"><h1 style="cursor:pointer;color: #347DB5; border: solid 1px #ddd;border-radius: 4px 4px 0px 0px; font-size: 14px; padding: 5px;background-color: #F4F4F4;">Live Preview</h1><div class="markdown comment_container" style="background-color: #fff;border: solid 1px #ddd; border-top: 0px; padding: 5px;"></div></div>');
+	} else if(e.val() == "") {
+		$('#gafLivePreview').remove();
+		return;
+	}
+	
+	var tmp = e.val();
+
+	// emulate markdown
+	// remove long vertical spaces
+	tmp = tmp.replace(/\n{3,}/g,"\n\n");
+
+	// add horizontal spaces
+	tmp = tmp.replace(/\-{3,}/gi,"<hr />");
+
+	// headings
+	tmp = tmp.replace(/(<\/?p>|\n|^)(\#{1,3}) (.*?)\n/gi, function(a,b,c,d) {
+			var str = (b == "<p>") ? "" : "</p>";
+			var n = c.length;
+			return str + "<h"+n+">" + d + "</h"+n+"><p>";
+	});
+
+	tmp = tmp.replace(/\n?(.*?)\n\={4,}/gi,"</p><h1>$1</h1><p>");
+	tmp = tmp.replace(/\n?(.*?)\n\-{4,}/gi,"</p><h2>$1</h2><p>");
+
+	// break line and paragraph
+	tmp = tmp.replace(/(  \n)/gi,"<br />");
+	tmp = tmp.replace(/(\n\n)/gi,"</p><p>");
+
+	// handle urls
+	tmp = tmp.replace(/\[(.*?)\]\((https?\:\/\/.*?)\)/gi, function(a,b,c) { return '<a href="'+c+'">'+b+'</a>' });
+
+	// bullets points, very basic
+	tmp = tmp.replace(/\n\* /gi,"<br />&nbsp;&nbsp;&nbsp;●&nbsp; ");
+	tmp = tmp.replace(/>\* /gi,">&nbsp;&nbsp;&nbsp;●&nbsp; ");
+
+	// italics and bold
+	tmp = tmp.replace(/(\*\*|__)(.*?)\1/gi,"<strong>$2</strong>");
+	tmp = tmp.replace(/\*(.*?)\*/gi,"<em>$1</em>");
+
+	// code tag
+	tmp = tmp.replace(/`(.*?)`/gi,"<code>$1</code>");
+
+
+	// fix paragraphs
+	tmp = "<p>"+tmp+"</p>";
+	tmp = tmp.replace(/<p><\/p>/g,"");
+
+	$("#gafLivePreview .markdown").html(tmp);
+});
+
+// move the comment box at the top for less frustration
+$('.discussions').after($('#comment_form'));
+$("span.cancel a").live('mousedown', function() { 
+ 	$("#gafLivePreview").remove();
+	setTimeout(function() { $('.discussions').after($('#comment_form')); }, 100);
+});
+$("a.cancel_edit_comment").live('mousedown', function() { 
+ 	$("#gafLivePreview").remove();
+});
+
 // main code
+if(window.location.href.match(/forum\/edit$/)) return; // rest of the code is not applicable on this page
+
 unsafeWindow.gafFilter = [];
 unsafeWindow.gafSyncFilter = [];
 
@@ -813,8 +901,6 @@ unsafeWindow.gafMaxPage = Math.ceil($('.results').first().text().replace(',','')
 unsafeWindow.gafPage = (unsafeWindow.gafReverse) ? unsafeWindow.gafMaxPage : 1;
 
 
-// move the comment box at the top for less frustration
-$('.discussions').after($('#comment_form'));
 
 // endless scroll settings on page
 if(unsafeWindow.gafShowESS) $('.results:first').html("Endless scrolling is <a style='color:#347DB5;' href='javascript:void(0);' onclick='javascript:gafToggleScroll(this);' >"+((unsafeWindow.gafScrollOn)?'on':'off')+"</a>");
