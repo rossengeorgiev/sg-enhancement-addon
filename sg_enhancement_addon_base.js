@@ -742,7 +742,8 @@ $("#create_form textarea#body, #comment_form textarea#body, .user_edit textarea"
 	tmp = tmp.replace(/(\n\n)/gi,"</p><p>");
 
 	// handle urls
-	tmp = tmp.replace(/\[(.*?)\]\((https?\:\/\/.*?)\)/gi, function(a,b,c) { return '<a href="'+c+'">'+b+'</a>' });
+	tmp = tmp.replace(/\[(.*?)\]\((((http)s?\:\/\/)?.*?)\)/gi, function(a,b,c,d,e) { 
+		return '<a href="'+((e=='http')?'':'http://')+c+'">'+b+'</a>' });
 
 	// bullets points, very basic
 	tmp = tmp.replace(/\n\* /gi,"<br />&nbsp;&nbsp;&nbsp;●&nbsp; ");
