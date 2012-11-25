@@ -246,6 +246,8 @@ unsafeWindow.gafAddIgnoreButton = function(elms) {
 unsafeWindow.gafPageLoaded = function() {
     if(window.location.href.match(/forum/)) {
       if(unsafeWindow.gafHrefPart.length > 5) {
+				unsafeWindow.gafAddHC($('#gafWindow').contents());
+
         if(unsafeWindow.gafReverse) {
           $('#gafWindow').contents().find('.parent_container').reverse().insertAfter($('.parent_container').last());
         }
@@ -777,6 +779,27 @@ $("span.cancel a").live('mousedown', function() {
 });
 $("a.cancel_edit_comment").live('mousedown', function() { 
  	$("#gafLivePreview").remove();
+});
+
+unsafeWindow.gafAddHC = function(elm) {
+	$(elm).find(".comment_container .parent_container .border_container").parent().find(".parent .reply_link").parent().append(' or <a href="#" class="gafHideChild show">Hide child comments</a>');
+}
+
+unsafeWindow.gafAddHC('body');
+$(".gafHideChild").live("click", function() {
+	var e = $(this);
+
+	if(e.hasClass("show")) {
+		e.removeClass("show");
+		e.text("Show child comments");		
+		e.parent().parent().parent().parent().parent().find(".border_container").stop(true,true).slideUp('fast');
+	} else {
+		e.addClass("show");
+		e.text("Hide child comments");		
+		e.parent().parent().parent().parent().parent().find(".border_container").stop(true,true).slideDown('fast');
+	}
+
+	return false;
 });
 
 // main code
