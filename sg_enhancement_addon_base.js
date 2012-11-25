@@ -764,10 +764,15 @@ $("#create_form textarea#body, #comment_form textarea#body, .user_edit textarea"
 });
 
 // move the comment box at the top for less frustration
-$('.discussions').after($('#comment_form'));
+if(window.location.href.match(/\/forum\//)) $('.discussions').after($('#comment_form'));
+else $('.sub_navigation').before($('#comment_form'));
+
 $("span.cancel a").live('mousedown', function() { 
  	$("#gafLivePreview").remove();
-	setTimeout(function() { $('.discussions').after($('#comment_form')); }, 100);
+	setTimeout(function() {
+		if(window.location.href.match(/\/forum\//)) $('.discussions').after($('#comment_form'));
+		else $('.sub_navigation').before($('#comment_form'));
+	}, 120);
 });
 $("a.cancel_edit_comment").live('mousedown', function() { 
  	$("#gafLivePreview").remove();
