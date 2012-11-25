@@ -36,17 +36,17 @@ if(!window.location.href.match(/^https?\:\/\/www\.steamgifts\.com\/?(#|(open|new
 // fades background and shows+centre the popup
 unsafeWindow.gafPopupShow = function() {
   $("#gafPopup").css({
-        "top": document.documentElement.clientHeight / 2 - 200,
+        "top": document.documentElement.clientHeight / 2 - 150,
         "left": document.documentElement.clientWidth / 2 - 200
         }); 
-  $('#gafPopup').show('slow');
-  $('#gafPopupBackground').fadeIn('slow');
+  $('#gafPopup').fadeIn('slow');
+  $('#gafPopupBackground').fadeIn('normal');
 }
 
 // hide popup and background
 unsafeWindow.gafPopupHide = function() {
   $('#gafOverlay').remove();
-  $('#gafPopup').hide('slow');
+  $('#gafPopup').fadeOut('normal');
   $('#gafPopupBackground').fadeOut('slow');
 	$('.ajax_gifts>div.post.quickview').removeClass('quickview');
 }
@@ -872,22 +872,24 @@ switch(unsafeWindow.gafHrefPart[3]) {
       setTimeout(unsafeWindow.gafRefreshCheck, 1000 * 60);
   case "":
   case "open":
-//      if(Math.random() <= 0.04) {
-//        $('.bg_gradient').css({'background-image':'url(http://i.imgur.com/B03BB.jpg)','background-position':'85% 100%','background-color':'#26303a'});
-//      }
       if( !unsafeWindow.gafOptions.match('G') ) { unsafeWindow.gafScrollOn = false; }
+      unsafeWindow.gafReverse = false;
       if( unsafeWindow.gafOptions.match('S') ) {
-        unsafeWindow.gafSyncState = true;
-        $('#gafSyncCBox').attr('checked',true);
         unsafeWindow.gafSync();
       }
-      if( unsafeWindow.gafOptions.match('Z') ) {
-        unsafeWindow.gafFeaturedHidden = true;
-        $('#gafHideFeatCBox').attr('checked',true);                
-      }
-      unsafeWindow.gafReverse = false;
-    break;
+
+    	break;
 }
+
+if( unsafeWindow.gafOptions.match('S') ) {
+	unsafeWindow.gafSyncState = true;
+	$('#gafSyncCBox').attr('checked',true);
+}
+if( unsafeWindow.gafOptions.match('Z') ) {
+	unsafeWindow.gafFeaturedHidden = true;
+	$('#gafHideFeatCBox').attr('checked',true);                
+}
+
 // remove giveaways and add ignore buttons
 if(unsafeWindow.gafShowSettings) {  
   unsafeWindow.gafUpdateViews(); 
@@ -1014,22 +1016,23 @@ if(unsafeWindow.gafRepReverse) {
   $('.bg_gradient .content:first').prepend('<div id="nav" class="gafNav"><div style="margin:0 auto;width:1000px;" id="gafMenuWrapper"><div class="left"><div></div></div>');
   $('.gafNav').attr('style','display:none;overflow:hidden;box-shadow:0 0 8px #000000;z-index:55;background:#25303A url(http://www.steamgifts.com/img/background_clean.png) no-repeat;background-position: center -60px;position:fixed;left:0px;height:62px;width:100%;');
   $('.gafNav').css({padding:0});
+	$("#navigation ol li:first").after('<li><div class="relative-dropdown"><div class="absolute-dropdown"><ul><li><a href="javascript: gafPopupShow()">Settings</a></li><li><a href="/forum/ba6uc/sg-enhancement-addon/page/31337">Forum thread</a></li></ul></div></div><a href="" class="arrow">SGE</a></li>');
   $('#gafMenuWrapper .left').append($('div#navigation').last().find('.logo,ol').clone());
   $('.gafNav ol').hide();
   $('.gafNav .search').remove();
   
-  $("#gafMenuWrapper li a.arrow").unbind('click').click(function() {
+  $("#gafMenuWrapper li a.arrow, #navigation li a.arrow").unbind('click').click(function() {
           $(this).parent().siblings().removeClass('open');
           $(this).parent().siblings().children('.relative-dropdown').children('.absolute-dropdown').hide();
           $(this).parent().addClass('open');
           $(this).siblings('.relative-dropdown').children('.absolute-dropdown').show();
           return false;
         });
-  $("#gafMenuWrapper .left ol>li").mouseleave(function() {
+  $("#gafMenuWrapper .left ol>li, #navigation .left ol>li").mouseleave(function() {
     $('#gafMenuWrapper .left ol li').removeClass('open');
     $('#gafMenuWrapper .left ol li .absolute-dropdown').hide();  // Le4IM
     }); 
-  //$('#gafMenuWrapper').append("<div class='right' style='text-align:center;padding-top:6px'><a href='http://steamcommunity.com/groups/SGFund'><img src='http://i.imgur.com/QSXEz.png' /></a></div>")
+  //$('#gafMenuWrapper').append("<div class='right' style='text-align:center;padding-top:6px'><a href=''><img src='' /></a></div>")
     
   $(window).bind('scroll', function() {
       if(unsafeWindow.gafScrollOn) { unsafeWindow.gafLoadingCheck(); }
