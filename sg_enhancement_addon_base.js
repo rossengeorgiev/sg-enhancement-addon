@@ -632,7 +632,7 @@ unsafeWindow.gafPutLoading = function() {
 }
 
 unsafeWindow.gafSetPoints = function(pts) {
-  var e = $('#navigation li a.arrow').slice(1,2);
+  var e = $('#navigation li a.arrow:contains("Account")');
   var a = e.text().match(/(\d+)P/);
   if(a.length)
   {
@@ -643,7 +643,7 @@ unsafeWindow.gafSetPoints = function(pts) {
     var total = pts - p;
     
     $('#nav,#navigation').each(function(k,v) {
-        v = $(v).find('li a.arrow').slice(1,2).text('Account ('+pts+'P)');
+        v = $(v).find('li a.arrow:contains("Account")').text('Account ('+pts+'P)');
     });
     
     if(total == 0) return;
@@ -652,7 +652,7 @@ unsafeWindow.gafSetPoints = function(pts) {
     .appendTo('body')
     .css({position:'fixed',
           top:'0px',
-          left: ($('#navigation li a.arrow').slice(1,2)[0].offsetLeft - 50) + "px",
+          left: ($('#navigation li a.arrow:contains("Account")')[0].offsetLeft + 50) + "px",
           'font-size':'20px',
           'font-weight':'bold',
           'text-shadow':'#666 0px 0px 6px',
