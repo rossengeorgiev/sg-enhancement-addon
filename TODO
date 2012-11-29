@@ -1,24 +1,29 @@
 TODO
 
-- add option to show only DLC for games the users already has
+- add option to show only DLCs for games the users already has
 
 - revise the filter interface, not just checkboxes
-	This should allow for more options, sliders etc
+  This should allow for more options, sliders etc
 
 - improve the animation when loading new elements with endless
-	scroll to work better with slower devices 
+  scrolling; we don't need animate elements outside of view 
 
-- Add timeout to endless scrolling, and click to try agian
-	functionality to 'gremlins' bar
+- Add timeout to endless scrolling; click on 'gremlins' bar to
+  try again
 
 - Improve contributor filter with the ability to select a range
 
 - Make the filter interface more user friendly
 
 - Add functionality to tag users with banners, just like
-	in Reddit Enhacement Suit, tags viewable across steamgifts.com
+  in Reddit Enhacement Suit, tags viewable across steamgifts.com
 
-- add some mechanism to detect configuration erros in the
-	user browser and guide them fix it it
+- add mechanism to detect configuration errors;
+  provide users with information how to fix them
 
 - recode the addon with a modular approach in mind
+
+- add botton to reset preferences to default
+
+- display stats about size of localStorage;
+  suggest increasing space when 70-80% full
