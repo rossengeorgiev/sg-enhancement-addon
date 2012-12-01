@@ -982,8 +982,6 @@ if(unsafeWindow.gafShowSettings) {
   unsafeWindow.gafApplyFilter(val);  
   unsafeWindow.gafAddIgnoreButton(val);
       
-  $('.sub_navigation h1').html("<a id='gafMenu' href='javascript: gafPopupShow()'>[Giveaway Filter Settings]</a>");
-
   unsafeWindow.gafAddOverlay();
   
 }
