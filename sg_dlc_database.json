@@ -1,7 +1,7 @@
 gafDLC = {
-	"PAYDAY\u2122 The Heist": [
+	"PAYDAY The Heist": [
 		"PAYDAY: The Heist Soundtrack", 
-		"PAYDAY\u2122 The Heist: Wolfpack DLC"
+		"PAYDAY The Heist: Wolfpack DLC"
 	], 
 	"Max Payne 3": [
 		"Max Payne 3: Hostage Negotiation Pack", 
@@ -14,9 +14,9 @@ gafDLC = {
 		"Max Payne 3: Classic Max Payne Character", 
 		"Max Payne 3: Pill Bottle Item"
 	], 
-	"Might & Magic\u00ae Heroes\u00ae VI": [
-		"Might & Magic\u00ae Heroes\u00ae VI - Danse Macabre Adventure Pack", 
-		"Might & Magic \u00ae Heroes \u00ae VI - Pirates of the Savage Sea Adventure Pack"
+	"Might & Magic Heroes VI": [
+		"Might & Magic Heroes VI - Danse Macabre Adventure Pack", 
+		"Might & Magic  Heroes  VI - Pirates of the Savage Sea Adventure Pack"
 	], 
 	"Alan Wake": [
 		"Alan Wake Collector's Edition Extras"
@@ -37,9 +37,9 @@ gafDLC = {
 		"MicroVolts - Micro Bundle"
 	], 
 	"Moon Breakers": [
-		"Moon Breakers:  Big Cheese Bundle DLC", 
-		"Moon Breakers:  Flyboy Bundle DLC", 
-		"Moon Breakers:  Rookie Bundle DLC"
+		"Moon Breakers: Big Cheese Bundle DLC", 
+		"Moon Breakers: Flyboy Bundle DLC", 
+		"Moon Breakers: Rookie Bundle DLC"
 	], 
 	"Fate of the World": [
 		"Fate of the World: Migration", 
@@ -60,7 +60,7 @@ gafDLC = {
 		"Xotic DLC: Temple Crypt Expansion Pack", 
 		"Xotic DLC: Pipe Works Expansion Pack"
 	], 
-	"Tom Clancy's Splinter Cell Conviction&trade;": [
+	"Tom Clancy's Splinter Cell Conviction": [
 		"Tom Clancy's Splinter Cell Conviction Insurgency Pack"
 	], 
 	"Quantum Conundrum": [
@@ -68,7 +68,7 @@ gafDLC = {
 		"Quantum Conundrum Soundtrack", 
 		"Quantum Conundrum: The Desmond Debacle"
 	], 
-	"F1 RACE STARS&trade;": [
+	"F1 RACE STARS": [
 		"F1 Race Stars - Christmas Accessory Pack", 
 		"F1 Race Stars - Holiday Accessory Pack", 
 		"F1 Race Stars - Nautical Accessory Pack", 
@@ -107,7 +107,7 @@ gafDLC = {
 	"Tropico 3 - Steam Special Edition": [
 		"Tropico 3: Absolute Power "
 	], 
-	"Red Faction\u00ae: Armageddon\u2122": [
+	"Red Faction: Armageddon": [
 		"Red Faction: Armageddon Path to War DLC"
 	], 
 	"Warhammer 40,000: Dawn of War II - Retribution Tyranid Race Pack": [
@@ -139,18 +139,18 @@ gafDLC = {
 		"AirMech Steam Starter Pack", 
 		"AirMech Beta Bundle"
 	], 
-	"Call of Duty\u00ae: Black Ops": [
-		"Call of Duty\u00ae: Black Ops - Rezurrection Content Pack", 
-		"Call of Duty&reg;: Black Ops Annihilation Content Pack", 
-		"Call of Duty&reg;: Black Ops Escalation Content Pack", 
-		"Call of Duty&reg;: Black Ops First Strike Content Pack"
+	"Call of Duty: Black Ops": [
+		"Call of Duty: Black Ops - Rezurrection Content Pack", 
+		"Call of Duty: Black Ops Annihilation Content Pack", 
+		"Call of Duty: Black Ops Escalation Content Pack", 
+		"Call of Duty: Black Ops First Strike Content Pack"
 	], 
-	"Empire: Total War&trade;": [
-		"Empire: Total War&trade; - Elite Units of the East", 
-		"Empire: Total War&trade; - Elite Units of America", 
-		"Empire: Total War&trade; - The Warpath Campaign", 
-		"Empire: Total War&trade; - Elite Units of the West", 
-		"Empire: Total War&trade; - Special Forces Units & Bonus Content"
+	"Empire: Total War": [
+		"Empire: Total War - Elite Units of the East", 
+		"Empire: Total War - Elite Units of America", 
+		"Empire: Total War - The Warpath Campaign", 
+		"Empire: Total War - Elite Units of the West", 
+		"Empire: Total War - Special Forces Units & Bonus Content"
 	], 
 	"Wargame: European Escalation": [
 		"Wargame: European Escalation - ''Fatal Error'' (Free DLC)", 
@@ -179,18 +179,18 @@ gafDLC = {
 		"Sleeping Dogs: Retro Triad Pack", 
 		"Sleeping Dogs - High Resolution Texture Pack"
 	], 
-	"Napoleon: Total War&trade;": [
+	"Napoleon: Total War": [
 		"Napoleon: Total War - Imperial Eagle Pack", 
 		"Napoleon: Total War - Heroes of the Napoleonic Wars", 
-		"Napoleon: Total War&trade; - The Peninsular Campaign", 
-		"Napoleon: Total War&trade; - Coalition Battle Pack"
+		"Napoleon: Total War - The Peninsular Campaign", 
+		"Napoleon: Total War - Coalition Battle Pack"
 	], 
 	"Magic: The Gathering 2012 - Expansion": [
-		"Magic 2012 Foil Conversion \u201cAuramancer\u201d", 
+		"Magic 2012 Foil Conversion Auramancer", 
 		"Magic 2012 Full Deck \"Auramancer\"", 
-		"Magic 2012 Foil Conversion \u201cCloudburst\u201d", 
+		"Magic 2012 Foil Conversion Cloudburst", 
 		"Magic 2012 Full Deck \"Cloudburst\"", 
-		"Magic 2012 Foil Conversion \u201cGrave Whispers\u201d", 
+		"Magic 2012 Foil Conversion Grave Whispers", 
 		"Magic 2012 Full Deck \"Grave Whispers\""
 	], 
 	"Warhammer 40,000: Dawn of War II: Retribution": [
@@ -285,7 +285,7 @@ gafDLC = {
 	], 
 	"Beat Hazard": [
 		"Beat Hazard Ultra", 
-		"Beat Hazard \u2013 iTunes & m4a file support"
+		"Beat Hazard  iTunes & m4a file support"
 	], 
 	"Pride of Nations": [
 		"Pride of Nations: The Scramble for Africa", 
@@ -340,7 +340,7 @@ gafDLC = {
 		"Portsmouth Direct Line Add-On", 
 		"4CIG Southern Add-On ", 
 		"Cologne - Dusseldorf Add-On", 
-		"Class 67 Diamond Jubilee  Add-On", 
+		"Class 67 Diamond Jubilee Add-On", 
 		"4VEP Add-On", 
 		"BR143 Add-On", 
 		"Woodhead Route Add-On", 
@@ -381,7 +381,7 @@ gafDLC = {
 		"European Community Asset Pack ", 
 		"Rascal & Cottonwood RailWorks Expansion Pack"
 	], 
-	"R.U.S.E.&trade;": [
+	"R.U.S.E.": [
 		"R.U.S.E - The Pack of The Rising Sun", 
 		"R.U.S.E. - The Chimera Pack"
 	], 
@@ -393,8 +393,8 @@ gafDLC = {
 	"Deadlight": [
 		"Deadlight Original Soundtrack"
 	], 
-	"Assassin\u2019s Creed\u00ae III": [
-		"Assassin\u2019s Creed\u00ae III Season Pass"
+	"Assassins Creed III": [
+		"Assassins Creed III Season Pass"
 	], 
 	"The Kings' Crusade": [
 		"The Kings' Crusade: Teutonic Knights", 
@@ -473,26 +473,26 @@ gafDLC = {
 		"Duels 2013 \"Sepulchral Strength\" Foil Conversion", 
 		"Duels 2013 \"Aura Servants\" Foil Conversion", 
 		"Duels 2013 \"Mindstorms\" Foil Conversion", 
-		"Magic 2013 \u201cExalted Darkness\u201d Deck Key ", 
-		"Magic 2013 \u201cPeacekeepers\u201d Deck Key ", 
-		"Magic 2013 \u201cAncient Wilds\u201d Deck Key ", 
-		"Magic 2013 \u201cPack Instinct\u201d Deck Key ", 
-		"Magic 2013 \u201cDream Puppets\u201d Deck Key ", 
-		"Magic 2013 \u201cBorn of Flame\u201d Deck Key ", 
-		"Magic 2013 \u201cObedient Dead\u201d Deck Key ", 
-		"Magic 2013 \u201cCelestial Light\u201d Deck Key ", 
-		"Magic 2013 \u201cCrosswinds\u201d Deck Key ", 
-		"Magic 2013 \u201cGoblin Gangland\u201d Deck Key ", 
-		"Magic 2013 \u201cPeacekeepers\u201d Foil Conversion ", 
-		"Magic 2013 \u201cCelestial Light\u201d Foil Conversion ", 
-		"Magic 2013 \u201cDream Puppets\u201d Foil Conversion ", 
-		"Magic 2013 \u201cCrosswinds\u201d Foil Conversion ", 
-		"Magic 2013 \u201cBorn of Flame\u201d Foil Conversion ", 
-		"Magic 2013 \u201cPack Instinct\u201d Foil Conversion ", 
-		"Magic 2013 \u201cObedient Dead\u201d Foil Conversion ", 
-		"Magic 2013 \u201cGoblin Gangland\u201d Foil Conversion ", 
-		"Magic 2013 \u201cExalted Darkness\u201d Foil Conversion ", 
-		"Magic 2013 \u201cAncient Wilds\u201d Foil Conversion "
+		"Magic 2013 Exalted Darkness Deck Key ", 
+		"Magic 2013 Peacekeepers Deck Key ", 
+		"Magic 2013 Ancient Wilds Deck Key ", 
+		"Magic 2013 Pack Instinct Deck Key ", 
+		"Magic 2013 Dream Puppets Deck Key ", 
+		"Magic 2013 Born of Flame Deck Key ", 
+		"Magic 2013 Obedient Dead Deck Key ", 
+		"Magic 2013 Celestial Light Deck Key ", 
+		"Magic 2013 Crosswinds Deck Key ", 
+		"Magic 2013 Goblin Gangland Deck Key ", 
+		"Magic 2013 Peacekeepers Foil Conversion ", 
+		"Magic 2013 Celestial Light Foil Conversion ", 
+		"Magic 2013 Dream Puppets Foil Conversion ", 
+		"Magic 2013 Crosswinds Foil Conversion ", 
+		"Magic 2013 Born of Flame Foil Conversion ", 
+		"Magic 2013 Pack Instinct Foil Conversion ", 
+		"Magic 2013 Obedient Dead Foil Conversion ", 
+		"Magic 2013 Goblin Gangland Foil Conversion ", 
+		"Magic 2013 Exalted Darkness Foil Conversion ", 
+		"Magic 2013 Ancient Wilds Foil Conversion "
 	], 
 	"Hearts of Iron III: For the Motherland": [
 		"Hearts of Iron III: Their Finest Hour", 
@@ -537,17 +537,17 @@ gafDLC = {
 		"Oil Rush Tower Defense Map Pack", 
 		"Oil Rush OST"
 	], 
-	"Ridge Racer&trade; Unbounded": [
-		"Ridge Racer&trade; Unbounded - Extended Pack: 3 Vehicles + 5 Paint Jobs", 
-		"Ridge Racer&trade; Unbounded - Ridge Racer&trade; 7 Machine & The Gallows Pack", 
-		"Ridge Racer&trade; Unbounded - Ridge Racer&trade; Type 4 Machine and  El Mariachi Pack", 
-		"Ridge Racer&trade; Unbounded - Ridge Racer&trade; 1 Machine and the Hearse Pack"
+	"Ridge Racer Unbounded": [
+		"Ridge Racer Unbounded - Extended Pack: 3 Vehicles + 5 Paint Jobs", 
+		"Ridge Racer Unbounded - Ridge Racer 7 Machine & The Gallows Pack", 
+		"Ridge Racer Unbounded - Ridge Racer Type 4 Machine and El Mariachi Pack", 
+		"Ridge Racer Unbounded - Ridge Racer 1 Machine and the Hearse Pack"
 	], 
 	"Pro Cycling Manager 2012": [
 		"Pro Cycling Manager 2012 - STAGE PACK (Free DLC)"
 	], 
 	"Borderlands 2": [
-		"Borderlands 2: Mr. Torgue\u2019s Campaign of Carnage", 
+		"Borderlands 2: Mr. Torgues Campaign of Carnage", 
 		"Borderlands 2 Season Pass", 
 		"Borderlands 2: Mechromancer Pack", 
 		"Borderlands 2 - Captain Scarlett and her Pirate's Booty"
@@ -560,25 +560,25 @@ gafDLC = {
 		"Magic 2012 Deck Pack 2", 
 		"Magic 2012 Deck Pack 1 ", 
 		"Magic: The Gathering 2012 - Expansion ", 
-		"Magic 2012 Full Deck \u201cBlood Hunger\u201d ", 
-		"Magic 2012 Full Deck \u201cApex Predators\u201d", 
-		"Magic 2012 Foil Conversion \u201cUnquenchable Fire\u201d", 
+		"Magic 2012 Full Deck Blood Hunger ", 
+		"Magic 2012 Full Deck Apex Predators", 
+		"Magic 2012 Foil Conversion Unquenchable Fire", 
 		"Magic 2012 Full Deck \"Unquenchable Fire\"", 
-		"Magic 2012 Full Deck \u201cMachinations\u201d ", 
-		"Magic 2012 Foil Conversion \u201cMachinations\u201d ", 
-		"Magic 2012 Foil Conversion \u201cDragon\u2019s Roar\u201d ", 
-		"Magic 2012 Foil Conversion \u201cRealm of Illusion\u201d ", 
-		"Magic 2012 Full Deck \u201cAncient Depths\u201d ", 
-		"Magic 2012 Full Deck \u201cStrength of Stone\u201d ", 
-		"Magic 2012 Foil Conversion \u201cAncient Depths\u201d ", 
-		"Magic 2012 Foil Conversion \u201cStrength of Stone\u201d ", 
-		"Magic 2012 Full Deck \u201cDragon\u2019s Roar\u201d ", 
-		"Magic 2012 Full Deck \u201cGuardians of the Wood\u201d ", 
-		"Magic 2012 Foil Conversion \u201cGuardians of the Wood\u201d ", 
-		"Magic 2012 Foil Conversion \u201cApex Predators\u201d ", 
-		"Magic 2012 Full Deck \u201cWielding Steel\u201d", 
-		"Magic 2012 Foil Conversion \u201cWielding Steel\u201d ", 
-		"Magic 2012 Full Deck \u201cRealm of Illusion\u201d "
+		"Magic 2012 Full Deck Machinations ", 
+		"Magic 2012 Foil Conversion Machinations ", 
+		"Magic 2012 Foil Conversion Dragons Roar ", 
+		"Magic 2012 Foil Conversion Realm of Illusion ", 
+		"Magic 2012 Full Deck Ancient Depths ", 
+		"Magic 2012 Full Deck Strength of Stone ", 
+		"Magic 2012 Foil Conversion Ancient Depths ", 
+		"Magic 2012 Foil Conversion Strength of Stone ", 
+		"Magic 2012 Full Deck Dragons Roar ", 
+		"Magic 2012 Full Deck Guardians of the Wood ", 
+		"Magic 2012 Foil Conversion Guardians of the Wood ", 
+		"Magic 2012 Foil Conversion Apex Predators ", 
+		"Magic 2012 Full Deck Wielding Steel", 
+		"Magic 2012 Foil Conversion Wielding Steel ", 
+		"Magic 2012 Full Deck Realm of Illusion "
 	], 
 	"Jamestown": [
 		"Jamestown: Gunpowder, Treason, & Plot", 
@@ -597,10 +597,10 @@ gafDLC = {
 		"Analogue: A Hate Story Soundtrack"
 	], 
 	"Total War: Shogun 2 - Fall of the Samurai": [
-		"Total War: Shogun 2 - Fall of the Samurai \u2013 The Obama Faction Pack", 
-		"Total War: Shogun 2 - Fall of the Samurai \u2013 The Saga Faction Pack", 
-		"Total War: Shogun 2 - Fall of the Samurai \u2013 The Tsu Faction Pack", 
-		"Total War: Shogun 2 - Fall of the Samurai \u2013 The Sendai Faction Pack", 
+		"Total War: Shogun 2 - Fall of the Samurai  The Obama Faction Pack", 
+		"Total War: Shogun 2 - Fall of the Samurai  The Saga Faction Pack", 
+		"Total War: Shogun 2 - Fall of the Samurai  The Tsu Faction Pack", 
+		"Total War: Shogun 2 - Fall of the Samurai  The Sendai Faction Pack", 
 		"Total War: Shogun 2 - Fall of the Samurai Blood Pack"
 	], 
 	"Ticket to Ride": [
@@ -609,22 +609,22 @@ gafDLC = {
 		"Ticket to Ride Switzerland DLC", 
 		"Ticket to Ride USA 1910 DLC"
 	], 
-	"Battlefield: Bad Company&trade; 2": [
+	"Battlefield: Bad Company 2": [
 		"Battlefield Bad Company 2: SPECACT Kit Upgrade"
 	], 
-	"EverQuest\u00ae II Free-To-Play. Your Way.\u2122": [
+	"EverQuest II Free-To-Play. Your Way.": [
 		"EverQuest II: Chains of Eternity "
 	], 
 	"Iron Grip: Warlord": [
 		"Iron Grip: Warlord - Scorched Earth DLC"
 	], 
 	"The Baconing": [
-		"The Baconing DLC - Roesha \u2013 One Bad Mutha Co-op Character"
+		"The Baconing DLC - Roesha  One Bad Mutha Co-op Character"
 	], 
 	"BIT.TRIP BEAT": [
 		"Bit.Trip Beat Soundtrack"
 	], 
-	"Mad Riders\u2122": [
+	"Mad Riders": [
 		"Mad Riders - Daredevil Map Pack"
 	], 
 	"Bullet Run": [
@@ -639,7 +639,7 @@ gafDLC = {
 		"Shad'O Soundtrack"
 	], 
 	"Fallen Earth Free2Play": [
-		"Fallen Earth \u2013 Survivalist Pack"
+		"Fallen Earth  Survivalist Pack"
 	], 
 	"Earth Defense Force: Insect Armageddon": [
 		"Earth Defense Force Battle Armor Weapon Chest", 
@@ -652,7 +652,7 @@ gafDLC = {
 		"Risen 2: Dark Waters - Treasure Isle DLC", 
 		"Risen 2: Dark Waters - A Pirate's Clothes DLC"
 	], 
-	"Hitman: Absolution\u2122": [
+	"Hitman: Absolution": [
 		"Hitman: Absolution: Krugermeier 2-2 Gun", 
 		"Hitman: Absolution: Public Enemy Disguise", 
 		"Hitman: Absolution: High Roller Disguise", 
@@ -707,7 +707,7 @@ gafDLC = {
 		"The Maw: Brute Force"
 	], 
 	"Total War: SHOGUN 2": [
-		"Total War: SHOGUN 2 \u2013 Otomo Clan Pack DLC", 
+		"Total War: SHOGUN 2  Otomo Clan Pack DLC", 
 		"Total War: SHOGUN 2 - Dragon War Battle Pack", 
 		"Total War: SHOGUN 2: Saints and Heroes Unit Pack", 
 		"Total War: SHOGUN 2 - The Hattori Clan Pack", 
@@ -766,8 +766,8 @@ gafDLC = {
 		"Stellar Impact - Artillery Ship DLC", 
 		"Stellar Impact - Support Ship DLC"
 	], 
-	"Call of Duty\u00ae: Black Ops II": [
-		"Call of Duty\u00ae: Black Ops II Season Pass"
+	"Call of Duty: Black Ops II": [
+		"Call of Duty: Black Ops II Season Pass"
 	], 
 	"Warhammer 40,000: Space Marine": [
 		"Warhammer 40,000: Space Marine - Dreadnought DLC", 
@@ -780,7 +780,7 @@ gafDLC = {
 		"Warhammer 40,000: Space Marine - Alpha Legion Champion Armour Set", 
 		"Warhammer 40,000: Space Marine - Salamanders Veteran Armour Set", 
 		"Warhammer 40,000: Space Marine - Golden Relic Bolter", 
-		"Warhammer 40,000: Space Marine - Emperor\u2019s Elite Pack", 
+		"Warhammer 40,000: Space Marine - Emperors Elite Pack", 
 		"Warhammer 40,000: Space Marine - Golden Relic Chainsword", 
 		"Warhammer 40,000: Space Marine - Traitor Legions Pack"
 	], 
@@ -837,12 +837,12 @@ gafDLC = {
 	"Sonic Generations": [
 		"Sonic Generations - Casino Nights DLC"
 	], 
-	"Assassin's Creed\u00ae Revelations": [
-		"Assassin's Creed\u00ae Revelations - The Lost Archive", 
-		"Assassin's Creed\u00ae Revelations - Mediterranean Traveler Map Pack", 
+	"Assassin's Creed Revelations": [
+		"Assassin's Creed Revelations - The Lost Archive", 
+		"Assassin's Creed Revelations - Mediterranean Traveler Map Pack", 
 		"Assassin's Creed Revelations - The Ancestors Character Pack"
 	], 
-	"Rocksmith\u2122": [
+	"Rocksmith": [
 		"Rocksmith - Rick James - Super Freak", 
 		"Rocksmith - Chic - Good Times", 
 		"Rocksmith - Parliament - Give Up the Funk (Tear the Roof off Sucker)", 
@@ -978,7 +978,7 @@ gafDLC = {
 		"Who Wants to Be A Movie Millionaire? ", 
 		"Who Wants to Be A Sport Millionaire? ", 
 		"Who Wants to Be A Football Millionaire? ", 
-		"Who Wants to Be A Millionaire? Star Trek: The Original Series \u2013 Special Edition ", 
+		"Who Wants to Be A Millionaire? Star Trek: The Original Series  Special Edition ", 
 		"Who Wants to Be A Music Millionaire? ", 
 		"Who Wants to Be A Millionaire? Trivia Booster ", 
 		"Who Wants to be a Millionaire? Science Fiction Pack"
@@ -987,7 +987,7 @@ gafDLC = {
 		"Serious Sam 3: Jewel of the Nile"
 	], 
 	"The Dream Machine (Chapter 1 and 2)": [
-		"The Dream Machine:  Chapter 3"
+		"The Dream Machine: Chapter 3"
 	], 
 	"Burn Zombie Burn!": [
 		"Burn Zombie Burn!: Soundtrack"
@@ -1001,10 +1001,10 @@ gafDLC = {
 		"RIFT: Storm Legion Collector's Items "
 	], 
 	"Magic 2012 Deck Pack 1": [
-		"Magic 2012 Foil Conversion \u201cGhoulkeeper\u201d ", 
-		"Magic 2012 Full Deck \u201cGhoulkeeper\u201d ", 
-		"Magic 2012 Foil Conversion \u201cMarch to War\u201d ", 
-		"Magic 2012 Full Deck \u201cMarch to War\u201d"
+		"Magic 2012 Foil Conversion Ghoulkeeper ", 
+		"Magic 2012 Full Deck Ghoulkeeper ", 
+		"Magic 2012 Foil Conversion March to War ", 
+		"Magic 2012 Full Deck March to War"
 	], 
 	"A.R.E.S.: Extinction Agenda": [
 		"A.R.E.S.: Original Soundtrack", 
@@ -1031,9 +1031,9 @@ gafDLC = {
 		"Dogfight 1942 Fire Over Africa", 
 		"Dogfight 1942 Russia Under Seige"
 	], 
-	"Aliens vs. Predator&trade;": [
+	"Aliens vs. Predator": [
 		"Aliens vs. Predator Swarm Map Pack", 
-		"Aliens vs Predator&trade; Bughunt Map Pack"
+		"Aliens vs Predator Bughunt Map Pack"
 	], 
 	"Babel Rising": [
 		"Babel Rising - Sky's The Limit DLC"
@@ -1063,13 +1063,13 @@ gafDLC = {
 	"Splice": [
 		"Splice Soundtrack"
 	], 
-	"Tom Clancy's H.A.W.X.&reg; 2": [
-		"Tom Clancy's H.A.W.X.&reg; 2 - Open Skies Expansion Pack"
+	"Tom Clancy's H.A.W.X. 2": [
+		"Tom Clancy's H.A.W.X. 2 - Open Skies Expansion Pack"
 	], 
 	"Rhythm Zone": [
 		"Rhythm Zone Tornado Visualizer DLC", 
 		"Rhythm Zone DJ Table Visualizer DLC", 
-		"Rhythm Zone:  Deep Ocean Visualizer", 
+		"Rhythm Zone: Deep Ocean Visualizer", 
 		"Rhythm Zone Mesh Visualizer DLC", 
 		"Rhythm Zone Revolution Visualizer DLC"
 	], 
@@ -1091,12 +1091,12 @@ gafDLC = {
 	], 
 	"Hearts of Iron III: Semper Fi": [
 		"Hearts of Iron III: For the Motherland", 
-		"Hearts of Iron III Semper Fi: Dies Irae G\u00f6tterd\u00e4mmerung"
+		"Hearts of Iron III Semper Fi: Dies Irae Gtterdmmerung"
 	], 
 	"Crazy Machines 2": [
 		"Crazy Machines 2 - Invaders from Space ", 
 		"Crazy Machines 2: Happy New Year DLC", 
-		"Crazy Machines 2:  Halloween", 
+		"Crazy Machines 2: Halloween", 
 		"Crazy Machines 2: Time Travel Add-On", 
 		"Crazy Machines 2: Liquid Force Add-on", 
 		"Crazy Machines 2: Back to the Shop Add-On"
@@ -1117,16 +1117,16 @@ gafDLC = {
 		"PC Gamer Digital Episode 3", 
 		"PC Gamer Digital Episode 2"
 	], 
-	"The Amazing Spider-Man\u2122": [
-		"The Amazing Spider-Man\u2122 - Rhino Challenge", 
-		"The Amazing Spider-Man\u2122 - Oscorp Search and Destroy Pack", 
-		"The Amazing Spider-Man\u2122 - Stan Lee Adventure Pack", 
-		"The Amazing Spider-Man\u2122 - Lizard Rampage Pack"
+	"The Amazing Spider-Man": [
+		"The Amazing Spider-Man - Rhino Challenge", 
+		"The Amazing Spider-Man - Oscorp Search and Destroy Pack", 
+		"The Amazing Spider-Man - Stan Lee Adventure Pack", 
+		"The Amazing Spider-Man - Lizard Rampage Pack"
 	], 
-	"Deus Ex: Human Revolution\u2122": [
-		"Deus Ex: Human Revolution\u2122 \u2013 The Missing Link", 
-		"Deus Ex: Human Revolution&trade; - Explosive Mission Pack", 
-		"Deus Ex: Human Revolution&trade; - Tactical Enhancement Pack"
+	"Deus Ex: Human Revolution": [
+		"Deus Ex: Human Revolution  The Missing Link", 
+		"Deus Ex: Human Revolution - Explosive Mission Pack", 
+		"Deus Ex: Human Revolution - Tactical Enhancement Pack"
 	], 
 	"Alliance of Valiant Arms": [
 		"Alliance of Valiant Arms: Steam Starter Pack"
@@ -1134,28 +1134,28 @@ gafDLC = {
 	"Snapshot": [
 		"Snapshot Soundtrack"
 	], 
-	"The Sims\u2122 3": [
+	"The Sims 3": [
 		"The Sims 3: Supernatural", 
 		"The Sims 3: Seasons", 
 		"The Sims 3: Diesel Stuff", 
-		"The Sims 3: Katy Perry\u2019s Sweet Treats", 
-		"The Sims&trade; 3 World Adventures", 
-		"The Sims\u2122 3 Pets", 
-		"The Sims&trade; 3 Late Night", 
-		"The Sims\u2122 3 Master Suite Stuff", 
-		"The Sims\u2122 3 Showtime", 
-		"The Sims\u2122 3 Ambitions", 
-		"The Sims&trade; 3 Town Life Stuff", 
-		"The Sims\u2122 3 Showtime Katy Perry Collector\u2019s Edition", 
-		"The Sims&trade; 3 Fast Lane Stuff", 
-		"The Sims&trade; 3 High-End Loft Stuff", 
-		"The Sims&trade; 3 Outdoor Living Stuff", 
-		"The Sims&trade; 3 Generations"
+		"The Sims 3: Katy Perrys Sweet Treats", 
+		"The Sims 3 World Adventures", 
+		"The Sims 3 Pets", 
+		"The Sims 3 Late Night", 
+		"The Sims 3 Master Suite Stuff", 
+		"The Sims 3 Showtime", 
+		"The Sims 3 Ambitions", 
+		"The Sims 3 Town Life Stuff", 
+		"The Sims 3 Showtime Katy Perry Collectors Edition", 
+		"The Sims 3 Fast Lane Stuff", 
+		"The Sims 3 High-End Loft Stuff", 
+		"The Sims 3 Outdoor Living Stuff", 
+		"The Sims 3 Generations"
 	], 
 	"Dungeon Defenders": [
 		"Dungeon Defenders Anniversary Pack", 
 		"Dungeon Defenders: Jester Hero DLC", 
-		"Dungeon Defenders  - Quest for the Lost Eternia Shards Part 4", 
+		"Dungeon Defenders - Quest for the Lost Eternia Shards Part 4", 
 		"Dungeon Defenders: Summoner Hero DLC", 
 		"Dungeon Defenders: Talay Mining Complex Mission Pack", 
 		"Dungeon Defenders: Quest for the Lost Eternia Shards Part 3", 
@@ -1264,34 +1264,34 @@ gafDLC = {
 	"King Arthur II: The Role-Playing Wargame": [
 		"King Arthur II: Dead Legions"
 	], 
-	"Call of Duty&reg;: Modern Warfare&reg; 2": [
-		" Call of Duty&reg;: Modern Warfare&reg; 2 Resurgence Pack", 
-		"Call of Duty&reg;: Modern Warfare&reg; 2 Stimulus Package"
+	"Call of Duty: Modern Warfare 2": [
+		" Call of Duty: Modern Warfare 2 Resurgence Pack", 
+		"Call of Duty: Modern Warfare 2 Stimulus Package"
 	], 
-	"Call of Duty&reg;: Modern Warfare&reg; 3": [
-		"Call of Duty\u00ae: Modern Warfare\u00ae 3 Collection 4: Final Assault", 
-		"Call of Duty\u00ae: Modern Warfare\u00ae 3 Collection 3: Chaos Pack", 
-		"Call of Duty&reg;: Modern Warfare&reg; 3 Collection 2", 
-		"Call of Duty&reg;: Modern Warfare&reg; 3 Collection 1"
+	"Call of Duty: Modern Warfare 3": [
+		"Call of Duty: Modern Warfare 3 Collection 4: Final Assault", 
+		"Call of Duty: Modern Warfare 3 Collection 3: Chaos Pack", 
+		"Call of Duty: Modern Warfare 3 Collection 2", 
+		"Call of Duty: Modern Warfare 3 Collection 1"
 	], 
-	"Anno 2070\u2122": [
-		"Anno 2070\u2122 - Deep Ocean", 
-		"Anno 2070\u2122  - The Nordamark Line Package", 
-		"Anno 2070\u2122  - The E.V.E. Package", 
-		"Anno 2070\u2122 - The Silent Running Package", 
-		"Anno 2070\u2122 - The Distrust Series Package", 
-		"Anno 2070\u2122 - The Crisis Response Package", 
-		"Anno 2070\u2122 - The Central Statistical Package", 
-		"Anno 2070\u2122: The Development Package", 
-		"Anno 2070\u2122: The Eden Series Package", 
-		"Anno 2070\u2122: The Keeper Package"
+	"Anno 2070": [
+		"Anno 2070 - Deep Ocean", 
+		"Anno 2070 - The Nordamark Line Package", 
+		"Anno 2070 - The E.V.E. Package", 
+		"Anno 2070 - The Silent Running Package", 
+		"Anno 2070 - The Distrust Series Package", 
+		"Anno 2070 - The Crisis Response Package", 
+		"Anno 2070 - The Central Statistical Package", 
+		"Anno 2070: The Development Package", 
+		"Anno 2070: The Eden Series Package", 
+		"Anno 2070: The Keeper Package"
 	], 
 	"Bunch of Heroes": [
 		"Bunch of Heroes: Holiday Pack (Free DLC)", 
 		"Bunch of Heroes: Horror Pack"
 	], 
 	"Call of Duty: Black Ops - Mac Edition": [
-		"Call of Duty\u00ae: Black Ops Annihilation & Escalation Bundle \u2013 Mac Edition", 
+		"Call of Duty: Black Ops Annihilation & Escalation Bundle  Mac Edition", 
 		"Call of Duty: Black Ops - Rezurrection Mac Edition"
 	], 
 	"Dead Island": [
@@ -1299,9 +1299,9 @@ gafDLC = {
 		"Dead Island Bloodbath Arena DLC", 
 		"Dead Island Ripper Mod"
 	], 
-	"Dungeons & Dragons Online\u00ae": [
-		"Dungeons & Dragons Online\u00ae Menace of the Underdark\u2122", 
-		"Dungeons & Dragons Online&reg; Half-Orc Pack"
+	"Dungeons & Dragons Online": [
+		"Dungeons & Dragons Online Menace of the Underdark", 
+		"Dungeons & Dragons Online Half-Orc Pack"
 	], 
 	"Airline Tycoon 2": [
 		"Airline Tycoon 2: Falcon Airlines DLC", 
@@ -1353,7 +1353,7 @@ gafDLC = {
 	"Pirates of Black Cove": [
 		"Pirates of Black Cove: Origins"
 	], 
-	"Sid Meier's Civilization\u00ae V": [
+	"Sid Meier's Civilization V": [
 		"Sid Meier's Civilization V - Gods and Kings", 
 		"Civilization V - Civilization and Scenario Pack: Korea", 
 		"Civilization V - Wonders of the Ancient World Scenario Pack", 
@@ -1363,14 +1363,14 @@ gafDLC = {
 		"Civilization V: Cradle of Civilization - Mediterranean", 
 		"Civilization and Scenario Pack: Polynesia", 
 		"Civilization and Scenario Pack: Denmark - The Vikings", 
-		"Civilization V: Explorer\u2019s  Map Pack", 
+		"Civilization V: Explorers Map Pack", 
 		"Double Civilization and Scenario Pack: Spain and Inca ", 
-		"Sid Meier\u2019s Civilization\u00ae V: Babylon (Nebuchadnezzar II)"
+		"Sid Meiers Civilization V: Babylon (Nebuchadnezzar II)"
 	], 
 	"Kung Fu Strike - The Warrior's Rise": [
 		"Kung Fu Strike: The Warrior's Rise - Master Level"
 	], 
-	"Tom Clancy's Ghost Recon: Future Soldier\u2122": [
+	"Tom Clancy's Ghost Recon: Future Soldier": [
 		"Tom Clancy's Ghost Recon Future Soldier - Season Pass", 
 		"Tom Clancy's Ghost Recon Future Soldier - Arctic Strike DLC"
 	], 
@@ -1390,7 +1390,7 @@ gafDLC = {
 	"X3: Terran Conflict": [
 		"X3: Albion Prelude"
 	], 
-	"Kingdoms of Amalur: Reckoning\u2122": [
+	"Kingdoms of Amalur: Reckoning": [
 		"Kingdoms of Amalur: Reckoning - Teeth of Naros", 
 		"Kingdoms of Amalur: Reckoning - Legend of Dead Kel", 
 		"Kingdoms of Amalur: Reckoning - Weapons & Armor Bundle"
@@ -1413,9 +1413,9 @@ gafDLC = {
 		"King Arthur: Knights and Vassals DLC"
 	], 
 	"The Lord of the Rings Online": [
-		"The Lord of the Rings Online\u2122: Riders of Rohan\u2122 Heroic Edition", 
-		"The Lord of the Rings Online\u2122\u0099: Triple Pack", 
-		"The Lord of the Rings Online&trade; Steam Starter Pack"
+		"The Lord of the Rings Online: Riders of Rohan Heroic Edition", 
+		"The Lord of the Rings Online: Triple Pack", 
+		"The Lord of the Rings Online Steam Starter Pack"
 	], 
 	"Saints Row: The Third": [
 		"Saints Row: The Third - Horror Pack", 
@@ -1442,31 +1442,31 @@ gafDLC = {
 	"Bastion": [
 		"Bastion: Original Soundtrack"
 	], 
-	"Transformers\u2122: Fall of Cybertron\u2122": [
-		"Transformers\u2122: Fall of Cybertron\u2122 - Massive Fury Pack", 
-		"Transformers\u2122: Fall of Cybertron\u2122 - DINOBOT Destructor Pack", 
-		"Transformers\u2122: Fall of Cybertron\u2122 - Multiplayer Havoc Pack"
+	"Transformers: Fall of Cybertron": [
+		"Transformers: Fall of Cybertron - Massive Fury Pack", 
+		"Transformers: Fall of Cybertron - DINOBOT Destructor Pack", 
+		"Transformers: Fall of Cybertron - Multiplayer Havoc Pack"
 	], 
 	"Magic 2012 Deck Pack 2": [
-		"Magic 2012 Foil Conversion \u201cDark Heavens\u201d", 
-		"Magic 2012 Full Deck \u201cForest\u2019s Fury\u201d ", 
-		"Magic 2012 Foil Conversion \u201cForest\u2019s Fury\u201d", 
-		"Magic 2012 Full Deck \u201cDark Heavens\u201d"
+		"Magic 2012 Foil Conversion Dark Heavens", 
+		"Magic 2012 Full Deck Forests Fury ", 
+		"Magic 2012 Foil Conversion Forests Fury", 
+		"Magic 2012 Full Deck Dark Heavens"
 	], 
 	"Magic 2012 Deck Pack 3": [
-		"Magic 2012 Foil Conversion \u201cTrinity of Elements\u201d ", 
-		"Magic 2012 Foil Conversion \u201cBeknighted\u201d ", 
-		"Magic 2012 Full Deck \u201cBeknighted\u201d  ", 
-		"Magic 2012 Full Deck \u201cTrinity of Elements\u201d "
+		"Magic 2012 Foil Conversion Trinity of Elements ", 
+		"Magic 2012 Foil Conversion Beknighted ", 
+		"Magic 2012 Full Deck Beknighted ", 
+		"Magic 2012 Full Deck Trinity of Elements "
 	], 
 	"Homefront": [
 		"Homefront - The Rock Map Pack", 
 		"Homefront Fire Sale Map DLC", 
 		"Homefront Express 870 Shotgun"
 	], 
-	"007\u2122 Legends": [
-		"007 Legends\u2122 - Eve DLC", 
-		"007 Legends\u2122 - Patrice DLC"
+	"007 Legends": [
+		"007 Legends - Eve DLC", 
+		"007 Legends - Patrice DLC"
 	], 
 	"Starpoint Gemini": [
 		"Starpoint Gemini : Timebreach"
@@ -1475,8 +1475,8 @@ gafDLC = {
 		"Super Meat Boy Soundtrack"
 	], 
 	"Fallout: New Vegas": [
-		"Fallout New Vegas\u00ae: Lonesome Road\u2122", 
-		"Fallout New Vegas\u00ae: Gun Runners\u2019 Arsenal\u2122", 
+		"Fallout New Vegas: Lonesome Road", 
+		"Fallout New Vegas: Gun Runners Arsenal", 
 		"Fallout New Vegas: Old World Blues ", 
 		"Fallout New Vegas: Honest Hearts", 
 		"Fallout New Vegas: Dead Money"
@@ -1527,8 +1527,8 @@ gafDLC = {
 		"Crazy Machines Elements DLC - Collision Course & Mental Activity"
 	], 
 	"BRINK": [
-		"BRINK: Fallout\u00ae/SpecOps Combo Pack", 
-		"BRINK: Doom\u00ae/Psycho Combo Pack", 
+		"BRINK: Fallout/SpecOps Combo Pack", 
+		"BRINK: Doom/Psycho Combo Pack", 
 		"BRINK: Agents of Change"
 	], 
 	"Tribes: Ascend": [
@@ -1537,10 +1537,10 @@ gafDLC = {
 	], 
 	"RACE 07": [
 		"GTR Evolution Expansion Pack for RACE 07", 
-		"WTCC 2010 \u2013 Expansion Pack for RACE 07", 
-		"RETRO \u2013 Expansion Pack for RACE 07", 
-		"GT Power Pack \u2013 Expansion Pack for RACE 07", 
-		"STCC The Game 2 \u2013 Expansion Pack for RACE 07", 
+		"WTCC 2010  Expansion Pack for RACE 07", 
+		"RETRO  Expansion Pack for RACE 07", 
+		"GT Power Pack  Expansion Pack for RACE 07", 
+		"STCC The Game 2  Expansion Pack for RACE 07", 
 		"RACE On - Expansion Pack for RACE 07", 
 		"STCC - The Game 1 - Expansion Pack for RACE 07", 
 		"RACE 07: Andy Priaulx Crowne Plaza Raceway (Free DLC)"
