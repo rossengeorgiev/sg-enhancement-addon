@@ -260,16 +260,22 @@ unsafeWindow.gafAddIgnoreButton = function(elms) {
 
 // function is called by iframe onLoad
 // filters new giveaways and adds them to the current page for endless scroll
-unsafeWindow.gafPageLoaded = function() {
+unsafeWindow.gafPageLoaded = function(data) {
+		if(data == '') {
+			return;
+		} else {
+			var loadedContent = $(data);
+		}
+
     if(window.location.href.match(/forum/)) {
       if(unsafeWindow.gafHrefPart.length > 5) {
-				unsafeWindow.gafAddHC($('#gafWindow').contents());
+				unsafeWindow.gafAddHC(loadedContent);
 
         if(unsafeWindow.gafReverse) {
-          $('#gafWindow').contents().find('.parent_container').reverse().insertAfter($('.parent_container').last());
+          loadedContent.find('.parent_container').reverse().insertAfter($('.parent_container').last());
         }
         else {
-          $('#gafWindow').contents().find('.parent_container').insertAfter($('.parent_container').last());        
+          loadedContent.find('.parent_container').insertAfter($('.parent_container').last());        
         }
         
         // restore click functionallity
@@ -309,27 +315,25 @@ unsafeWindow.gafPageLoaded = function() {
         });          
       }
       else {
-        $('#gafWindow').contents().find('.row a').each(function(key,obj) {
+        loadedContent.find('.row a').each(function(key,obj) {
               if($(obj).attr('href').match(/^\/forum/)) {
                 var newURL = $(obj).attr('href') + "/page/31337";
                 $(obj).attr('href',newURL);
               }
             });
-        $('#gafWindow').contents().find('.row').appendTo('.discussions');
+        loadedContent.find('.row').appendTo('.discussions');
         $('.row').css({padding: $('#gafSlider').slider("value") + "px 0"});
       }
     }
     else
     {
       // remove Contributor links from loaded elements
-      //$('#gafWindow').contents().find("div.post span.new:contains('Contributor')").parent().parent().parent().remove();
       // get all giveaways
-      var elms = $('#gafWindow').contents().find('.ajax_gifts>div.post');
+      var elms = loadedContent.find('.ajax_gifts>div.post');
 
       
       // update points from endless scroll page load
-      var p = $('#gafWindow').contents()
-              .find('#navigation li a.arrow').slice(1,2).text().match(/(\d+)P/);
+      var p = loadedContent.find('#navigation li a.arrow').slice(1,2).text().match(/(\d+)P/);
       if(p && parseInt(p[1]) != NaN) {
         unsafeWindow.gafSetPoints(p[1]);
       }
@@ -401,26 +405,32 @@ unsafeWindow.gafLoadNextPage = function() {
           
     unsafeWindow.gafLoading = true;
     unsafeWindow.gafPage += (unsafeWindow.gafReverse) ? -1 : 1;
+
+		var url = '';
     
     if(window.location.href.match(/forum/)) {
       if(unsafeWindow.gafHrefPart.length > 5) {
         if(unsafeWindow.gafReverse) {
-          $('#gafWindow').attr('src',window.location.href.replace(/\d+$/,unsafeWindow.gafPage));
+          url = window.location.href.replace(/\d+$/,unsafeWindow.gafPage);
         } 
         else {
-          $('#gafWindow').attr('src',window.location.href + '/page/' + unsafeWindow.gafPage);
+          url = window.location.href + '/page/' + unsafeWindow.gafPage;
         }
       }
       else {
-        $('#gafWindow').attr('src','http://www.steamgifts.com/forum/page/' + unsafeWindow.gafPage);
+        url = 'http://www.steamgifts.com/forum/page/' + unsafeWindow.gafPage;
       }
     }
     else if(window.location.href.match(/new$/)) {
-      $('#gafWindow').attr('src','http://www.steamgifts.com/new/page/' + unsafeWindow.gafPage);
+      url = 'http://www.steamgifts.com/new/page/' + unsafeWindow.gafPage;
     }
     else {
-      $('#gafWindow').attr('src','http://www.steamgifts.com/open/page/' + unsafeWindow.gafPage);
+      url = 'http://www.steamgifts.com/open/page/' + unsafeWindow.gafPage;
     }
+
+		$.get(url, function(data) {
+				unsafeWindow.gafPageLoaded(data);
+		});
   }
 }
  
@@ -471,7 +481,10 @@ unsafeWindow.gafRefreshCheck = function() {
   if(!unsafeWindow.gafLoading) {
     unsafeWindow.gafLoading = true;
     unsafeWindow.gafLoadingNew = true;
-    $('#gafWindow').attr('src','http://www.steamgifts.com/new/page/1');  
+
+		$.get('http://www.steamgifts.com/new/page/1', function(data) {
+				unsafeWindow.gafPageLoaded(data);
+		});
   }
    
   setTimeout(unsafeWindow.gafRefreshCheck, 1000 * 90);
@@ -1074,8 +1087,6 @@ if(unsafeWindow.gafScrollOn) {
   else {
     unsafeWindow.gafPutLoading();
   }
-  
-  $('body').append("<iframe id='gafWindow' style='display: none' src='about:blank' onload='javascript: gafPageLoaded();'></iframe>");
 }
 
 
