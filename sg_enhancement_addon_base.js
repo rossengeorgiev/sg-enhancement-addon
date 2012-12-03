@@ -200,7 +200,7 @@ unsafeWindow.gafApplyFilter = function(gafs) {
     // susbet of tmp of red contributor giveways
     var subset =  tmp.find('.contributor_only:not(.green)').parent().parent().parent();
     // subtract sets 
-    $.merge(finalset, $.grep(tmp, function(e) { return $.inArray(e, subset) < 0 }));
+    $.merge(finalset, $.grep(tmp, function(e) { return $.inArray(e, subset) == -1 }));
   }
   // include contributor giveaways
   if(fgreen) {
@@ -211,12 +211,16 @@ unsafeWindow.gafApplyFilter = function(gafs) {
   }
 
 	// contributor range
-	finalset = $($.grep($(finalset).find('.contributor_only'), function(e, i) {
-		var amount = parseFloat($(e).text().match(/[0-9\.,]+/)[0]);
-		return (amount >= fcont_min) && (amount <= fcont_max); // apply contributor range
-	}, false)).parent().parent().parent().get();
+	finalset = $.grep(finalset, function(e) {
+		e = $(e);
+		if(e.find('.contributor_only').length > 0) {
+			var amount = parseFloat(e.find('.contributor_only').text().match(/[0-9\.,]+/)[0]);
+			return (amount >= fcont_min) && (amount <= fcont_max); // apply contributor range
+		}
 
-
+		return true;
+	}, false);
+	
   // include regular giveaways
   if(freg) {
     $.merge(finalset, $(fgafs).map(function(i,e) {
