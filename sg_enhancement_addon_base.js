@@ -108,7 +108,11 @@ unsafeWindow.gafApplyFilter = function(gafs) {
 
   // show all giveaways
   if(fall) {
-    $(gafs).filter(':hidden').slideDown().find('.description').attr('style','');
+    gafs = $(gafs).filter(':hidden');
+		gafs.find('.description').attr('style','');
+		gafs.slice(0,5).slideDown(function() {
+			gafs.slice(5).show();			
+		});
     return true;  
   }
 
@@ -242,8 +246,15 @@ unsafeWindow.gafApplyFilter = function(gafs) {
   }).get();
    
   // display results :)
-  $(excludeset).filter(':visible').stop(true,true).slideUp();
-  $(finalset).filter(':hidden').stop(true,true).slideDown();
+	excludeset = $(excludeset).filter(':visible');
+	finalset = $(finalset).filter(':hidden');
+
+  excludeset.slice(0,5).stop(true,true).slideUp(function() {
+		excludeset.slice(5).stop(true,true).hide();		
+	});
+  finalset.slice(0,5).stop(true,true).slideDown(function() {
+		finalset.slice(5).stop(true,true).show();		
+	});
 }
 
 // add ignore buttons to all giveaways :)
