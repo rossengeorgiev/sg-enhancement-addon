@@ -792,7 +792,7 @@ $("#create_form textarea#body, #comment_form textarea#body, .user_edit textarea"
 	if(e.val() != "" && $("#gafLivePreview").length == 0) {
 		var insertAfterElement;
 
-		if(window.location.href.match(/forum\/edit$/)) insertAfterElement = e.parent().find('.clear_both');
+		if(window.location.href.match(/forum\/(new|edit)$/)) insertAfterElement = e.parent().find('.clear_both');
 		else {
 			insertAfterElement = e.parent().parent().find('.clear_both');
 
