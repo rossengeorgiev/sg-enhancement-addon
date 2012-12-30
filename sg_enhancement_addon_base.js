@@ -1059,7 +1059,7 @@ if(unsafeWindow.gafShowSettings) {
     }
   );
   
-  $('.sub_navigation h1').append(' Search:<input type="text" name="gafSearch" /> <input type="button" name="gafSearchClear" value="Clear">');
+  $('.sub_navigation h1').html('<h1><i>Dear User, the SGE addon will be discontinued. Consider using <u><a href="http://www.steamgifts.com/forum/Emu2M/steam-user-add-ons-and-iphoneandroid-apps">SG+</a></u>. Happy holidays! -Zo</i></h1>');
   $('input[name=gafSearchClear]').click(function() { 
     $('input[name=gafSearch]').val(''); 
     unsafeWindow.gafApplyFilter($('.ajax_gifts>div.post')); });
