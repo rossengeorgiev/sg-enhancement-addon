@@ -1,3 +1,8 @@
+# This project has been discontinued
+
+
+---
+
 SG Enhancement Addon
 ====================
 
