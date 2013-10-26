@@ -6,7 +6,7 @@
 SG Enhancement Addon
 ====================
 
-Add a number of enhachacements to [http://www.steamgifts.com](http://steamgifts.com).
+Add a number of enhancements to [http://www.steamgifts.com](http://steamgifts.com).
 
 * Giveaway filter, green highlighting for wishlist, and more
 * Search giveaways (slower than site search)
